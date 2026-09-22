@@ -82,3 +82,37 @@ Para garantir alta adesão e facilidade de uso, o design mobile deve seguir esta
 * **Políticas de RLS (Row Level Security):**
   * `pais_role`: Permissão total (INSERT, UPDATE, DELETE, SELECT) na tabela de Atividades/Rotinas.
   * `baba_role`: Permissão de leitura (SELECT) em todas as atividades e permissão de atualização (UPDATE) restrita apenas aos campos `status` (concluído/não concluído) e `observacao`.
+
+---
+
+## 🚀 Como Executar Localmente
+
+### Pré-requisitos
+- [Node.js](https://nodejs.org/) (versão 18 ou superior)
+- npm
+
+### Passo a Passo
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/ailtoneric/papai-mamae-bebe.git
+   cd papai-mamae-bebe
+   ```
+
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+
+3. **Configure as variáveis de ambiente:**
+   Copie `.env.example` para `.env.local` (se aplicável):
+   ```bash
+   cp .env.example .env.local
+   ```
+
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+   Acesse a aplicação no navegador em `http://localhost:3000`.
+

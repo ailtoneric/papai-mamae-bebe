@@ -1,0 +1,6 @@
+{
+  "name": "Papai Mamãe Bebê",
+  "description": "Aplicativo de rotina e cuidados do bebê com perfis para Pais e Babá, checklists diários, lembretes de medicação e monitoramento em tempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
